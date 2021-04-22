@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import MouseParticles from 'react-mouse-particles';
 
 // layout for page
 
@@ -9,12 +8,6 @@ import Auth from "layouts/Auth.js";
 export default function Login() {
   return (
     <>
-      <MouseParticles
-        g={1}
-        color='random'
-        cull='MuiSvgIcon-root,MuiButton-root'
-        level={6}
-      />
       <div className='container mx-auto px-4 h-full'>
         <div className='flex content-center items-center justify-center h-full'>
           <div className='w-full lg:w-4/12 px-4'>
