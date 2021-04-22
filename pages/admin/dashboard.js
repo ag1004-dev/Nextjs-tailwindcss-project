@@ -1,5 +1,4 @@
 import React from "react";
-import MouseParticles from 'react-mouse-particles'
 
 // components
 
@@ -15,12 +14,6 @@ import Admin from "layouts/Admin.js";
 export default function Dashboard() {
   return (
     <>
-      <MouseParticles
-        g={1}
-        color='random'
-        cull='MuiSvgIcon-root,MuiButton-root'
-        level={6}
-      />
       <div className='flex flex-wrap'>
         <div className='w-full xl:w-8/12 mb-12 xl:mb-0 px-4'>
           <CardLineChart />
