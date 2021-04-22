@@ -11,12 +11,6 @@ import Admin from "layouts/Admin.js";
 export default function Maps() {
   return (
     <>
-      <MouseParticles
-        g={1}
-        color='random'
-        cull='MuiSvgIcon-root,MuiButton-root'
-        level={6}
-      />
       <div className='flex flex-wrap'>
         <div className='w-full px-4'>
           <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded'>
