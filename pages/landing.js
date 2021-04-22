@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import MouseParticles from 'react-mouse-particles';
 
 
 // components
@@ -11,12 +10,6 @@ import Footer from "components/Footers/Footer.js";
 export default function Landing() {
   return (
     <>
-      <MouseParticles
-        g={1}
-        color='random'
-        cull='MuiSvgIcon-root,MuiButton-root'
-        level={6}
-      />
       <Navbar transparent />
       <main>
         <div className='relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75'>
@@ -507,7 +500,7 @@ export default function Landing() {
                 <div className='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200'>
                   <div className='flex-auto p-5 lg:p-10'>
                     <h4 className='text-2xl font-semibold'>
-                      Want to work with us?
+                      Want to learn with us?
                     </h4>
                     <p className='leading-relaxed mt-1 mb-4 text-blueGray-500'>
                       Complete this form and we will get back to you in 24
