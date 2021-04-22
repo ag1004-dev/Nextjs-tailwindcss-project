@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import Link from "next/link";
-import MouseParticles from 'react-mouse-particles';
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
@@ -10,12 +9,6 @@ export default function Index() {
 
   return (
     <>
-      <MouseParticles
-        g={1}
-        color='random'
-        cull='MuiSvgIcon-root,MuiButton-root'
-        level={6}
-      />
       <IndexNavbar fixed />
       <section className='header relative pt-16 items-center flex h-screen max-h-860-px'>
         <div className='container mx-auto items-center flex flex-wrap'>
