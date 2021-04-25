@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import MouseParticles from 'react-mouse-particles';
+// import MouseParticles from 'react-mouse-particles';
 
 
 // components
@@ -11,13 +11,13 @@ import Footer from "components/Footers/Footer.js";
 export default function Landing() {
   return (
     <>
-        <MouseParticles
+        {/* <MouseParticles
       g={1}
       color='random'
       radius={10}
       cull='MuiSvgIcon-root,MuiButton-root'
       level={10}
-    />
+    /> */}
       <Navbar transparent />
       <main>
         <div className='relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75'>
