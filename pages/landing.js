@@ -206,7 +206,7 @@ export default function Landing() {
                 <img
                   alt='...'
                   className='max-w-full rounded-lg shadow-lg'
-                  src='https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
+                  src='https://images.unsplash.com/photo-1619138313315-cf6d410c9c32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1233&q=80'
                 />
               </div>
               <div className='w-full md:w-5/12 ml-auto mr-auto px-4'>
@@ -214,11 +214,9 @@ export default function Landing() {
                   <div className='text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200'>
                     <i className='fas fa-rocket text-xl'></i>
                   </div>
-                  <h3 className='text-3xl font-semibold'>A growing company</h3>
+                  <h3 className='text-3xl font-semibold'>A growing comunity</h3>
                   <p className='mt-4 text-lg leading-relaxed text-blueGray-500'>
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    We continue to study programming！写真をかえました！
                   </p>
                   <ul className='list-none mt-6'>
                     <li className='py-2'>
